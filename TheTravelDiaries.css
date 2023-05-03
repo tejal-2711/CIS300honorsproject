@@ -1,0 +1,216 @@
+#wrapper
+{
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      height: auto;
+      background: lightblue;
+      background: linear-gradient(#FFFFFF, #90C7E3);
+
+      box-shadow: 3px 3px #333333;
+      padding: 5px;
+      padding-left: 5px;
+}
+
+#wrapper1
+{
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      height: 1200px;
+      background: lightblue;
+      background: linear-gradient(#FFFFFF, #90C7E3);
+
+      box-shadow: 3px 3px #333333;
+      padding: 5px;
+      padding-left: 5px;
+}
+
+#section
+{
+padding: 3em;
+     float: center;
+}
+
+table, th, td {
+  border:1px solid black;
+  padding: 4px;
+  
+}
+
+body {
+
+  background: #2D68C4;
+font-family: brush script mt, cursive;
+font-size: 20px;
+}
+
+h1 {
+text-align: center;
+font-family: brush script mt, cursive;
+}
+
+h2 {
+text-align: center;
+font-family: brush script mt, cursive;
+}
+
+p
+{
+text-align: center;
+}
+
+h2
+{
+text-align: center;
+}
+
+nav
+{
+background: #082567;
+
+}
+
+nav a
+{
+      text-decoration: none;
+      color: #FFFFFF;
+}
+
+nav ul
+      {
+
+            margin-left: 3em;
+           display: flex;
+
+           flex-wrap: nowrap;
+           justify-content: space-before;
+           justify-content: space-between;
+
+           justify-content: space-after;
+list-style: none;
+
+       }
+
+
+
+footer {
+      font-size: 10px;
+
+}
+
+#baliimages
+{
+width: 45%;
+ white-space: nowrap;
+}
+
+#section
+    {
+
+  float: left;
+  width: 30%;
+  padding: 10px;
+    }
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+
+}
+
+
+header
+{
+
+      background-color: #002171;
+      color: #FFFFFF;
+      text-align: center;
+
+
+      background-repeat: no-repeat;
+      background-position: right;
+     
+      margin-left: auto;
+      margin-right: auto;
+      height: 60px;
+      padding-top: 5px;
+padding-bottom: 30px;
+}
+
+.pictures
+{
+padding-left: 90px;
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Bali {
+  position: absolute;
+  bottom: 310px;
+  left: 190px;
+  color: black;
+}
+
+.NewYork {
+  position: absolute;
+  bottom: 310px;
+  left: 530px;
+  color: black;
+}
+
+.Agra {
+  position: absolute;
+  bottom: 310px;
+  left: 880px;
+  color: black;
+}
+
+.Singapore {
+  position: absolute;
+  bottom: 90px;
+  left: 190px;
+  color: black;
+}
+
+.KL {
+  position: absolute;
+  bottom: 90px;
+  left: 530px;
+  color: black;
+}
+
+.Oman {
+  position: absolute;
+  bottom: 90px;
+  left: 880px;
+  color: black;
+}
+
+form
+{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      width: 700px;
+      margin-left: 220px;
+      background-color: #86c5da;
+
+}
+
+video
+{
+      margin-left: 35px;
+}
+
+nav a:hover
+{
+      color:#A52A2A;
+
+}
